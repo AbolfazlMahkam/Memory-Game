@@ -1,0 +1,67 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+  font-family: josefin-sans;
+  src: url(../../public/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  overflow: hidden;
+  height: 100dvh;
+  color: var(--foreground);
+  background: url(../../public/img/bg.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: josefin-sans;
+}
+.roY90 {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+}
+.roY-90{
+  transition: all ease-in 0.2;
+  transform: rotateY(-90deg);
+}
+.roY00 {
+  transform: rotateY(0);
+}
+.card .front {
+  transform: rotateY(90deg);
+  transition: all ease-in0.2s;
+}
+.flipped .front{
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+.card .back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+.flipped .back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
