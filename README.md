@@ -4,6 +4,7 @@ Welcome to the Memory Game project! This is an interactive and fun web-based gam
 🔑 Key Features
 🎮 Engaging Gameplay
 
+> [!tip]
 > Flip cards to reveal hidden images and find their matching pairs.
 > Tracks score and allows players to challenge themselves to beat their best scores.
 
