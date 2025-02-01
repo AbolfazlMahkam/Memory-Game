@@ -29,6 +29,8 @@ To run the application locally, follow these steps:
 1. Clone the Repository:
 ```
 git clone https://github.com/AbolfazlMahkam/Memory-Game.git
+```
+```
 git clone git@github.com:AbolfazlMahkam/Memory-Game.git
 ```
 4. navigate to the CRM-Workroom project directory ```cd Memory-Game```.
