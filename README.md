@@ -20,7 +20,7 @@ Fully responsive UI optimized for different screen sizes, ensuring a seamless ex
 * TailwindCSS: For rapid and responsive styling.
 * JavaScript (ES6+): For logic and interactivity.
 
-[![My Skills](https://skillicons.dev/icons?i=next.js,react,tailwind,js)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,tailwind,js)](https://skillicons.dev)
 
 # 🚀 Steps to Run the Application
 
